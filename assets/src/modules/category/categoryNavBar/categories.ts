@@ -1,3 +1,5 @@
+//Quin Proctor
+//1505975
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",

@@ -1,3 +1,5 @@
+//Quin Proctor
+//1505975
 export default {
   apiGateway: {
     REGION: "us-east-1",
