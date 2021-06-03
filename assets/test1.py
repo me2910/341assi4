@@ -1,7 +1,6 @@
 import glob;
 import sys;
 
-
 NAME = "//Quin Proctor"
 ID = "//1505975"
 tsFiles = glob.glob('./src/**/*.ts', recursive=True)
