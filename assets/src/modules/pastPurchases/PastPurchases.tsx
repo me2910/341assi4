@@ -64,7 +64,7 @@ export default class PastPurchases extends Component<PastPurchasesProps, PastPur
         <CategoryNavBar />
         <div className="well-bs col-md-12">
           {this.state.userInfo && <div className="white-box no-margin-top">
-            <h3>{`Hello ${this.state.userInfo.attributes.email}!`}</h3>
+            <h3 data-testid="hello">{`Hello ${this.state.userInfo.attributes.email}!`}</h3>
           </div>}
           <div className="white-box">
             <h3>Past purchases</h3>

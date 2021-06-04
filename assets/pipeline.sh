@@ -13,6 +13,7 @@ npm install
 npm run build
 
 cd src/__tests__
+
 npm run test
 if [ "$?" != 0 ]; 
 then
