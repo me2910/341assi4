@@ -14,6 +14,13 @@ npm run build
 
 cd src/__tests__
 npm run test
+if [ "$?" != 0 ]; 
+then
+    
+    echo "Test Error: Pipeline failed"
+    exit 2
+fi
+
 cd ../../../
 
 git add .
